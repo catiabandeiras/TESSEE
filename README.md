@@ -16,11 +16,16 @@ Stem cell therapies are promising for diverse clinical indications. However, the
 TESSEE is a cross platform tool that requires a Python 3 implementation and a text editor to run. The Anaconda implementation of Python 3 is recommended. For a Text Editor, Sublime Text 3 is also recommended.
 
 Steps:
-    1 - Install [Anaconda Python 3](https://www.anaconda.com/distribution/)
-        NOTE: In case you are running Anaconda on a Windows operating system, it is required to [change the Path variables to add Anaconda](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444)
-    2 - Install [Sublime Text 3](https://www.sublimetext.com/3)
-    3 - Open the Command Window/Terminal in your operating system
-    4 - Insert the following commands on your Command Window/Terminal. Each command should be followed by Enter
+
+1 - Install [Anaconda Python 3](https://www.anaconda.com/distribution/)
+       
+ NOTE: In case you are running Anaconda on a Windows operating system, it is required to [change the Path variables to add Anaconda](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444)
+    
+2 - Install [Sublime Text 3](https://www.sublimetext.com/3)
+
+3 - Open the Command Window/Terminal in your operating system
+
+4 - Insert the following commands on your Command Window/Terminal. Each command should be followed by Enter
 
 
         $conda update conda
