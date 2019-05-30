@@ -67,7 +67,7 @@ There are two ways to install/download the source code of TESSEE to your local m
 
 ## Credits
 
-Credits in the development of this tool are given to the PhD supervisors of [Catia Bandeiras](http://scerg.tecnico.ulisboa.pt/cbandeiras.html): [Prof. Dr. Frederico Ferreira (iBB-IST)](http://scerg.tecnico.ulisboa.pt/fcferreira.html) and [Prof. Dr. Stan Neil Finkelstein](IDSS-MIT and DCI-BIDMC-HMS). 
+Credits in the development of this tool are given to the PhD supervisors of [Catia Bandeiras](http://scerg.tecnico.ulisboa.pt/cbandeiras.html): [Prof. Dr. Frederico Ferreira (iBB-IST)](http://scerg.tecnico.ulisboa.pt/fcferreira.html) and [Prof. Dr. Stan Neil Finkelstein (IDSS-MIT and DCI-BIDMC-HMS)](https://idss.mit.edu/staff/stan-finkelstein/). 
 
 Additionally, members of the [Stem Cell Engineering Research Group](http://scerg.tecnico.ulisboa.pt/index.html) provided important feedback on the development of this tool due to their lab expertise in Stem Cell Manufacturing. Furthermore, members of the Cell Therapy Core Facilities at [Dana-Farber Cancer Institute](https://www.dana-farber.org/), [Harvard Stem Cell Institute](https://hsci.harvard.edu/), and [Case Western Reserve University](https://case.edu/) also provided feedback, along with several industry members.
 
