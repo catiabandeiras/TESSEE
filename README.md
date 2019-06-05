@@ -4,9 +4,6 @@
 
 Stem Cell Engineering Research Group, Instituto Superior Tecnico, Universidade de Lisboa, Portugal
 
-Check out the Read the Docs page for more information on the project:
-
-
 ## Abstract:
 
 Stem cell therapies are promising for diverse clinical indications. However, there are manufacturing and reimbursement challenges that must be addressed towards widespread adoption. This thesis presents TESSEE, a new tool for early health technology assessment (eHTA), supported on bioprocess and/or health economics models. TESSEE is developed specifically for stem cell therapies, incorporating biological, process, clinical, and economic uncertainty. Unlike other eHTA, TESSEE is an open source tool, freely available and customizable to several case studies. In order to develop and demonstrate the different features of TESSEE, at the moment, three industrially and clinically relevant case studies were published in academic journals.
@@ -64,6 +61,29 @@ There are two ways to install/download the source code of TESSEE to your local m
 3 - Select "Download ZIP"
 
 4 - Unzip the folder and copy to your desired location on your local machine.
+
+
+## Demo Cases
+
+For first feedback, please refer to the folder "demo1", where a simple demonstration case for production of doses of 10 million cells, using automatically selected planar technologies, is presented. In this case, only bioprocess modeling is provided. This version showcases automatically generated CSV files and plots for the total costs per donor/batch, total costs per dose, the costs division per stage, and the costs division per resource.
+
+<b>Run the demo on the Command Line Interface (CLI)</b>
+
+1 - Open the Command Window/Terminal in your operating system
+
+2 - Change to the directory where you downloaded the "demo1" folder to:
+
+    
+    $cd <Insert path to desired location>
+   
+
+3 - Run the main file of the source code as follows:
+
+    
+    $ python -m main
+    
+
+4 - When the file stops, open the spreadsheets with results on the "csv_files" subdirectory and the plots on the "plots" subdirectory.
 
 ## Credits
 
