@@ -24,9 +24,9 @@ Steps:
        
  2 - Copy the path to the files (ends in Anaconda3)
  
- 3 - Open the command window/Terminal and type the following command. Click Enter. Where it reads <Anaconda Path>, replace by the path copied in the previous step
+ 3 - Open the command window/Terminal and type the following command. Click Enter. Where it reads $Anaconda Path$, replace by the path copied in the previous step
  
-       setx path "%path%;<Anaconda Path>;<Anaconda Path>/Scripts"
+       setx path "%path%;$Anaconda Path$;$Anaconda Path$/Scripts"
        
        
  4 - Close and reopen the Command Window/Terminal
