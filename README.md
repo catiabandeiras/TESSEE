@@ -14,22 +14,39 @@ TESSEE is a cross platform tool that requires a Python 3 implementation and a te
 
 Steps:
 
-1 - Install [Anaconda Python 3](https://www.anaconda.com/distribution/)
+1 - Install [Anaconda Python 3](https://www.anaconda.com/distribution/) using all the default options.
        
- NOTE: In case you are running Anaconda on a Windows operating system, it is required to [change the Path variables to add Anaconda](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444)
+ NOTE: In case you are running Anaconda on a Windows operating system, it is required to change the Path variables to add Anaconda manually:
+ 
+ 1 - Find the Anaconda installation path. Open the Anaconda Prompt and type:
+       
+       where conda
+       
+ 2 - Copy the path to the files (ends in Anaconda3)
+ 
+ 3 - Open the command window/Terminal and type the following command. Click Enter. Where it reads <Anaconda Path>, replace by the path copied in the previous step
+ 
+       setx path "%path%;<Anaconda Path>;<Anaconda Path>/Scripts"
+       
+       
+ 4 - Close and reopen the Command Window/Terminal
     
 2 - Install [Sublime Text 3](https://www.sublimetext.com/3)
 
-3 - Open the Command Window/Terminal in your operating system
+3 - Open the Command Window/Terminal in your operating system. In order to confirm if Python is well installed, run:
+
+        python
+        
+in the terminal command window.
 
 4 - Insert the following commands on your Command Window/Terminal. Each command should be followed by Enter
 
 
-        $conda update conda
-        $conda update numpy
-        $conda update pandas
-        $conda update scipy
-        $python -m pip install simpy
+        conda update conda
+        conda update numpy
+        conda update pandas
+        conda update scipy
+        python -m pip install simpy
 
 
 ## Installation
